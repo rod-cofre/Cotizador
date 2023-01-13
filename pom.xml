@@ -12,7 +12,7 @@
     <artifactId>Cotizador</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Cotizador</name>
-    <description>Microservicio enfocado en generar productos y sus respectivos </description>
+    <description>Microservicio enfocado en generar productos y sus respectivos</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -40,7 +40,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>org.modelmapper</groupId>
+            <artifactId>modelmapper</artifactId>
+            <version>3.2.1</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
@@ -56,6 +60,16 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-log4j2</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.modelmapper</groupId>
+            <artifactId>modelmapper</artifactId>
+            <version>3.1.0</version>
         </dependency>
     </dependencies>
 
